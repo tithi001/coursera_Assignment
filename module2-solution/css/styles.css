@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+h1{ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 210%;
+	text-align: center;
+	margin:15px 0px 30px 0px;
+}
+
+div#p1, div#p2, div#p3{ 
+	position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  background-color: gray;
+  padding: 50px 13px 13px 13px;
+  border: 1px solid black;
+  margin: 2%;
+  width: 96%;
+
+
+}
+div>h3{
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 150%;
+text-align: center;
+width:150px;
+border: 1px solid black;
+top: 0;
+right: 0;
+
+}
+h3#chicken{
+
+background-color: pink;
+color:black;
+
+
+}
+h3#beef{
+background-color: red;
+color:white;
+
+}
+h3#sushi{
+background-color: green;
+color:black;
+
+}
+@media (min-width: 992px) {
+  div#p1{
+    margin: 2%;
+    width: 30.66%;
+    float: left;
+  }
+  div#p2{
+    margin: 2% 2% 2% 0%;
+     width: 30.66%;
+    float: left;
+  }
+  div#p3{
+    margin: 2% 2% 2% 0%;
+     width: 30.66%;
+    float:left;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   div#p1{
+    margin: 2%;
+    width: 47%;
+    float: left;
+  
+  }
+  div#p2{
+    margin: 2% 2% 2% 0%;
+    width: 47%;
+    float: left;
+
+  }
+  div#p3{
+    margin: 2%;
+    width: 96%;
+    clear: both;
+  }
+}
+
+
+
+
